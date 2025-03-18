@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Demo</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Container for Bootstrap Demo -->
+    <div class="container-md">
+        <!-- Heading -->
+        <h2>Bootstrap Demo</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint harum esse, at id praesentium quo ipsa dignissimos vero aliquid eius vitae illo aliquam enim neque assumenda doloribus ex ut eum.
+        </p>
+
+        <!-- Buttons Section -->
+        <div>
+            <h3>Buttons</h3>
+            <button type="button" class="btn btn-primary">Click Me</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-light">Light</button>
+            <button type="button" class="btn btn-dark">Dark</button>
+            <button type="button" class="btn btn-outline-primary">Primary</button>
+            <a href="#" class="btn btn-dark">Google</a>
+        </div>
+
+        <!-- Badges Section -->
+        <div>
+            <h3>Badges</h3>
+            <span class="badge bg-danger">10+</span>
+            <h1>Notification <span class="badge text-bg-secondary">New</span></h1>
+        </div>
+
+        <!-- Button with Notification Badge -->
+        <div>
+            <h3>Button with Notification Badge</h3>
+            <button type="button" class="btn btn-primary position-relative">
+                Notification
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    99+
+                    <span class="visually-hidden">unread messages</span>
+                </span>
+            </button>
+        </div>
+
+        <!-- Alerts Section -->
+        <div>
+            <h3>Alerts</h3>
+            <div class="alert alert-primary" role="alert">
+                A simple primary alert—check it out!
+            </div>
+            <div class="alert alert-danger">Download Failed! Please try again.</div>
+            <div class="alert alert-success alert-dismissible">
+                Congratulations! Your score is 50/50
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+        </div>
+
+        <!-- Button with Badge -->
+        <div>
+            <h3>Button with Badge</h3>
+            <button class="btn btn-primary">
+                Followers
+                <span class="badge rounded-pill text-bg-secondary">100+</span>
+            </button>
+        </div>
+
+        <!-- Button Group Section -->
+        <div>
+            <h3>Button Group</h3>
+            <div class="btn-group">
+                <button class="btn btn-success">One</button>
+                <button class="btn btn-primary">Two</button>
+                <button class="btn btn-warning">Three</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar Section -->
+    <h2>Navbar</h2>
+    <nav class="navbar bg-primary fixed-top navbar-expand-lg">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">Brand Name</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#">About Us</a>
+                </div>
+            </div>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Card Section -->
+    <div class="container">
+        <h2>Bootstrap Demo</h2>
+        <div class="card" style="width: 18rem;">
+            <img src="image.jpg" class="card-img-top" alt="Card Image">
+            <div class="card-body">
+                <h5 class="card-title">Life</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">Card Subtitle</h6>
+                <p class="card-text">Life is a very beautiful gift.</p>
+                <a href="#" class="btn btn-primary">Know More</a>
+            </div>
+        </div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident possimus facere molestias inventore et ex quae, id voluptate aspernatur ipsam soluta qui voluptas minima eos fugit laboriosam eaque tempora quis?
+        </p>
+    </div>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
